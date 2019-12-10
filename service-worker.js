@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/calcular-aguinaldo/precache-manifest.0fd31408ea149d4cdea4c1ae18e379de.js"
+  "/calcular-aguinaldo/precache-manifest.9ae38b85747d54ca44db65a23aa3c803.js"
 );
 
 self.addEventListener('message', (event) => {
