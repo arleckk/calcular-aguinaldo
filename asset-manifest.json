@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/calcular-aguinaldo/static/css/main.a4b191df.chunk.css",
+    "main.js": "/calcular-aguinaldo/static/js/main.72f25424.chunk.js",
+    "main.js.map": "/calcular-aguinaldo/static/js/main.72f25424.chunk.js.map",
+    "runtime-main.js": "/calcular-aguinaldo/static/js/runtime-main.3fd75941.js",
+    "runtime-main.js.map": "/calcular-aguinaldo/static/js/runtime-main.3fd75941.js.map",
+    "static/js/2.6f8f1e61.chunk.js": "/calcular-aguinaldo/static/js/2.6f8f1e61.chunk.js",
+    "static/js/2.6f8f1e61.chunk.js.map": "/calcular-aguinaldo/static/js/2.6f8f1e61.chunk.js.map",
+    "index.html": "/calcular-aguinaldo/index.html",
+    "precache-manifest.b89b8936feeb9ccf47296aa07c3520ba.js": "/calcular-aguinaldo/precache-manifest.b89b8936feeb9ccf47296aa07c3520ba.js",
+    "service-worker.js": "/calcular-aguinaldo/service-worker.js",
+    "static/css/main.a4b191df.chunk.css.map": "/calcular-aguinaldo/static/css/main.a4b191df.chunk.css.map",
+    "static/js/2.6f8f1e61.chunk.js.LICENSE": "/calcular-aguinaldo/static/js/2.6f8f1e61.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fd75941.js",
+    "static/js/2.6f8f1e61.chunk.js",
+    "static/css/main.a4b191df.chunk.css",
+    "static/js/main.72f25424.chunk.js"
+  ]
+}
