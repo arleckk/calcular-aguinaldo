@@ -9,6 +9,10 @@ const Formulario = ({fechaIngreso, handleChange}) => {
                 <span className="input-group-prepend">$</span>
                 <input className="form-control" name="sueldo" placeholder="00.00" required="" type="number" onChange={handleChange} />
             </div>
+            <div className="form-group">
+            <label>Días de aguinaldo (15 mínimo de acuerdo a la ley)</label>
+                <input className="form-control" name="diasAguinaldo" placeholder="15" required="" type="number" onChange={handleChange} />
+            </div>
             <div className="form-group" hidden={fechaIngreso}>
                 <label>Ingrese la fecha en que ingreso a trabajar</label>
                 <input className="form-control" name="fechaIngreso" type="date" required="" onChange={handleChange} />

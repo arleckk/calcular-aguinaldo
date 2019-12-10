@@ -20,7 +20,8 @@ class Home extends Component {
         aguinaldo : {
             sueldo: 0,
             fechaIngreso: null,
-            faltas: 0
+            faltas: 0,
+            diasAguinaldo: 15
         }
     }
 
@@ -58,7 +59,7 @@ class Home extends Component {
         this.sueldoDiario = this.state.aguinaldo.sueldo / 30;
         this.diasTrabajados = this.state.aguinaldo.fechaIngreso === null ? 365 : this.days_between(dateIngreso, finalAnio)+1;
         this.diasProporcionAnio = Number(((this.diasTrabajados - this.state.aguinaldo.faltas) / 365).toFixed(2));
-        this.aguinaldoFinal = this.sueldoDiario * 15 * this.diasProporcionAnio;
+        this.aguinaldoFinal = this.sueldoDiario * this.state.aguinaldo.diasAguinaldo * this.diasProporcionAnio;
         this.setState({
             aguinaldo : {
                 ...this.state.aguinaldo
@@ -96,7 +97,7 @@ class Home extends Component {
                 ? <CalcularBtn calcularAguinaldo={this.calcularAguinaldo} /> : null }
 
                 { this.state.mostrarAguinaldo === true ? <ResultadoAguinaldo sueldo={this.state.aguinaldo.sueldo} sueldoDiario={this.sueldoDiario} diasTrabajados={this.diasTrabajados} 
-                    diasTrabajadosProporcion = {this.diasProporcionAnio} aguinaldo={this.aguinaldoFinal} /> : null }
+                    diasTrabajadosProporcion = {this.diasProporcionAnio} aguinaldo={this.aguinaldoFinal} diasAguinaldo={this.state.aguinaldo.diasAguinaldo} /> : null }
 
             </div>
          );

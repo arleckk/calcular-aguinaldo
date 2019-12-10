@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ResultadoAguinaldo = ({sueldo, sueldoDiario, diasTrabajados, diasTrabajadosProporcion, aguinaldo}) => {
+const ResultadoAguinaldo = ({sueldo, sueldoDiario, diasTrabajados, diasTrabajadosProporcion, aguinaldo, diasAguinaldo}) => {
     return (
         <div className="card resultado-aguinaldo">
             <div className="card-body">
@@ -11,7 +11,7 @@ const ResultadoAguinaldo = ({sueldo, sueldoDiario, diasTrabajados, diasTrabajado
                     <h5>{diasTrabajados} / 365 = {diasTrabajadosProporcion}</h5>
                     <h6>Días trabajados / Días del año = Proporción</h6>
                     <br /><br />
-                    <h5>${sueldoDiario} * 15 * {diasTrabajadosProporcion} = <b>${aguinaldo}</b> </h5>
+                    <h5>${sueldoDiario} * {diasAguinaldo} * {diasTrabajadosProporcion} = <b>${aguinaldo}</b> </h5>
                     <h6>Salario Diario * Días de Aguinaldo * Proporción = <b>Aguinaldo Mínimo</b></h6>
                 </div>
             </div>
