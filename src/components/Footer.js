@@ -6,7 +6,7 @@ class Footer extends Component {
         return ( 
             <div className="row">
                 <div className="col-md-12 col-sm-12 center-col text-center"> 
-                    <a href="#" className="btn social-icon button" data-abc="true"><i className="fa fa-facebook btn-round"></i></a> 
+                    <a href="#" className="btn social-icon button" data-abc="true"><i className="fa fa-facebook btn-round" icon={['fab', 'apple']}></i></a> 
                     <a href="#" className="btn social-icon button" data-abc="true"><i className="fa fa-twitter btn-round"></i></a> 
                     <a href="#" className="btn social-icon button" data-abc="true"><i className="fa fa-instagram btn-round"></i></a> 
                     <a href="#" className="btn social-icon button" data-abc="true"><i className="fa fa-youtube btn-round"></i></a> 

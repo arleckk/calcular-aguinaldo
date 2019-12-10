@@ -6,7 +6,9 @@ const Formulario = ({fechaIngreso, handleChange}) => {
         <form className="col-md-8 offset-md-2">
             <label>Ingresa tu sueldo mensual</label>
             <div className="input-group">
-                <span className="input-group-prepend">$</span>
+                <div className="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">$</span>
+                </div>
                 <input className="form-control" name="sueldo" placeholder="00.00" required="" type="number" onChange={handleChange} />
             </div>
             <div className="form-group">
